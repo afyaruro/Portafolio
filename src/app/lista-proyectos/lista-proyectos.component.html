@@ -1,0 +1,13 @@
+<div class="container">
+    <aside class="contenedor_proyectos">
+
+        <div class="proyecto" *ngFor="let proyecto of proyectos">
+            <img src={{proyecto.foto}} alt="No se encuentra la imagen" class="imagen_proyecto">
+            <h5 class="titulo_proyecto">{{proyecto.nombre}}</h5>
+            <p class="parrafo">{{proyecto.descripcion}}</p>
+            <p class="link" *ngIf="proyecto.github!=' '">Link GitHub: <a href={{proyecto.github}} target="_blank">Ir a GitHub</a></p>
+            <p class="link" *ngIf="proyecto.link!=' '">Link del Proyecto: <a href={{proyecto.link}} target="_blank">Ir a la Pagina</a></p>
+        </div>
+
+    </aside>
+</div>

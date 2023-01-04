@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor_header{
+    font-family: 'Chakra Petch', sans-serif;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(16, 0, 46, 0.986);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h2{
+    display: block;
+    margin-left: 50px;
+    color: beige;
+}
+
+.contenedor_menu{
+    height: 90%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    text-decoration: none;
+    color: beige;
+    margin: 20px;
+}
+
+.item:hover{
+    color: blueviolet;
+}
+@media(max-width: 800px){
+
+    .contenedor_header{
+        font-family: 'Chakra Petch', sans-serif;
+        min-height: 200px;
+        width: 100%;
+        background-color: rgba(16, 0, 46, 0.986);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    h2{
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        color: beige;
+    }
+
+    .contenedor_menu{
+        min-height: 50%;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

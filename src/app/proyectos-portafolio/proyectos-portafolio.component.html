@@ -1,0 +1,25 @@
+<div class="container">
+
+    <div class="container_formulario">
+
+
+        <form [formGroup]="formulario" (ngSubmit)="Crear()" class="formulario">
+
+            <h2>Nuevo Proyecto</h2>
+    
+            <input type="text" class="input_text" formControlName="nombre" placeholder="Nombre del Proyecto">
+            <input type="text" class="input_text" formControlName="descripcion" placeholder="Descripcion del Proyecto">
+            <input type="text" class="input_text" formControlName="github" placeholder="Link del GitHub">
+            <input type="text" class="input_text" formControlName="link" placeholder="Link del proyecto">
+            <input type="text" class="input_text" formControlName="foto" placeholder="Link de la foto">
+       
+        
+        <input type="submit" value="Crear Proyecto" class="btn">
+    </form>
+    </div>
+
+    
+
+</div>
+
+
