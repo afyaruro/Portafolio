@@ -102,7 +102,7 @@ p{
 .container_tecnologias{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     min-height: 100px;
     align-items: center;
@@ -114,7 +114,7 @@ p{
     min-height: 120px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -144,6 +144,8 @@ p{
 .descrition{
     font-size: 12px;
     text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .link{
@@ -178,14 +180,9 @@ p{
     color: #764ba2;
 }
 
-.item:hover{
-    width: 60px;
-    height: 60px;
-}
 
-.item_contacto:hover{
-    height: 120px;
-}
+
+
 
 @media(max-width: 1055px){
     .perfil_contenedor{
@@ -227,41 +224,35 @@ p{
    }
 
    .item{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
-.item:hover{
-    width: 70px;
-    height: 70px;
-}
+
 
 .item_contacto{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .descrition{
-    font-size: 17px;
+    font-size: 12px;
     
 }
 
 .link{
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .link:hover{
-    font-size: 22px;
+    font-size: 14px;
 }
 
-.item_contacto:hover{
-    height: 170px;
-}
     
 }
 
@@ -306,51 +297,38 @@ p{
    }
 
    .item{
-    width: 60px;
-    height: 60px;
-}
-
-.item:hover{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .item_contacto{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .descrition{
-    font-size: 17px;
+    font-size: 12px;
     
 }
 
 .link{
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .link:hover{
-    font-size: 22px;
-}
-
-.item_contacto:hover{
-    height: 170px;
+    font-size: 14px;
 }
 
 .container_tecnologias{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
 .container_contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }  
 }
@@ -396,51 +374,41 @@ p{
    }
 
    .item{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
-.item:hover{
-    width: 70px;
-    height: 70px;
-}
 
 .item_contacto{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .descrition{
-    font-size: 17px;
+    font-size: 12px;
     
 }
 
 .link{
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .link:hover{
-    font-size: 22px;
+    font-size: 14px;
 }
 
-.item_contacto:hover{
-    height: 170px;
-}
+
 
 .container_tecnologias{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
 
 .container_contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }  
 }
@@ -486,51 +454,39 @@ p{
    }
 
    .item{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
-.item:hover{
-    width: 70px;
-    height: 70px;
-}
 
 .item_contacto{
     width: 100px;
-    height: 150px;
+    height: 100px;
 }
 
 .icon{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 .descrition{
-    font-size: 13px;
+    font-size: 12px;
     
 }
 
 .link{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .link:hover{
-    font-size: 16px;
-}
-
-.item_contacto:hover{
-    height: 170px;
+    font-size: 14px;
 }
 
 .container_tecnologias{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
 }
 
 .container_contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }  
 }

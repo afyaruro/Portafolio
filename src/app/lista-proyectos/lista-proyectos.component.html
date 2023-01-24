@@ -1,5 +1,5 @@
 <div class="container">
-    <aside class="contenedor_proyectos">
+    <section class="contenedor_proyectos">
 
         <div class="proyecto" *ngFor="let proyecto of proyectos">
             <img src={{proyecto.foto}} alt="No se encuentra la imagen" class="imagen_proyecto">
@@ -9,5 +9,5 @@
             <p class="link" *ngIf="proyecto.link!=' '">Link del Proyecto: <a href={{proyecto.link}} target="_blank">Ir a la Pagina</a></p>
         </div>
 
-    </aside>
+    </section>
 </div>

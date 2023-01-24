@@ -15,23 +15,23 @@
 }
 
 .contenedor_proyectos{
-    width: 100%;
+    width: 80%;
     margin: 0px auto;
-    min-height: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+    
 }
 
 .proyecto{
-    width: 340px;
     margin: 0px auto;
-    height: 400px;
+    min-height: 400px;
     background-color: rgba(66, 29, 136, 0.233);
     overflow: hidden;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 .imagen_proyecto{
@@ -74,9 +74,8 @@ a{
 
 @media(max-width: 1060px){
     .proyecto{
-        width: 300px;
         margin: 0px auto;
-        height: 400px;
+        min-height: 400px;
         background-color: rgba(66, 29, 136, 0.233);
         overflow: hidden;
         border-radius: 10px;
@@ -85,16 +84,15 @@ a{
 
 @media(max-width: 960px){
     .proyecto{
-        width: 300px;
         margin: 0px auto;
-        height: 400px;
+        min-height: 400px;
         background-color: rgba(66, 29, 136, 0.233);
         overflow: hidden;
         border-radius: 10px;
     }
 
     .contenedor_proyectos{
-        width: 100%;
+        width: 80%;
         margin: 0px auto;
         min-height: 100vh;
         display: grid;
@@ -109,7 +107,7 @@ a{
     .proyecto{
         width: 300px;
         margin: 0px auto;
-        height: 400px;
+        min-height: 400px;
         background-color: rgba(66, 29, 136, 0.233);
         overflow: hidden;
         border-radius: 10px;
@@ -129,16 +127,15 @@ a{
 
 @media(max-width: 300px){
     .proyecto{
-        width: 250px;
         margin: 0px auto;
-        height: 400px;
+        min-height: 400px;
         background-color: rgba(66, 29, 136, 0.233);
         overflow: hidden;
         border-radius: 10px;
     }
 
     .contenedor_proyectos{
-        width: 100%;
+        width: 80%;
         margin: 0px auto;
         min-height: 100vh;
         display: grid;
